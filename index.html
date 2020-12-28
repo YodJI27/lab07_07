@@ -6,7 +6,10 @@
     <title>lab07</title>
 </head>
 <body>
-         <canvas id="lab07" width="500" height="400" style='border: 1px solid' tabindex='1'></canvas>
-         <script src="/index.js"></script>
+      <canvas width="500" height="500"></canvas><br>
+      Вращение вокруг оси X: <label for="rotateX"></label><input id="rotateX" type="range" min="-3.1415" max="3.1415" value="0" step = "0.0001" oninput="update()"><b id="infoRotateX"></b><br>
+      Вращение вокруг оси Y: <label for="rotateY"></label><input id="rotateY" type="range" min="-3.1415" max="3.1415" value="0" step = "0.0001" oninput="update()"><b id="infoRotateY"></b><br>
+      Вращение вокруг оси Z: <label for="rotateZ"></label><input id="rotateZ" type="range" min="-3.1415" max="3.1415" value="0" step = "0.0001" oninput="update()"><b id="infoRotateZ"></b><br>
+      <script src="/index.js"></script>
 </body>
 </html>
